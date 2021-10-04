@@ -14,11 +14,10 @@ public class MyLinkedListTest {
         myLinkedList.add(myFirstNode);
         myLinkedList.append(myThirdNode);
         myLinkedList.insert(myFirstNode,mySecondNode);
+        myLinkedList.pop();
         myLinkedList.printMyNodes();
 
-        boolean result = myLinkedList.head.equals(myFirstNode) && myLinkedList.head.getNext().equals(mySecondNode) && myLinkedList.tail.equals(myThirdNode);
 
-        Assert.assertTrue(result);
 
 
 
